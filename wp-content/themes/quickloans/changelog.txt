@@ -1,0 +1,42 @@
+Version 1.3.0
+    Added:
+            - WP GDPR Compliance plugin
+            - Privacy Policy page
+            - Alert to Demo data installation
+            - Contact Form 7
+
+    Fixed:
+            - Compatibility with WP 5.0
+            - Update plugins to their latest versions
+            - Improve theme styles
+            - Button shortcode (button aligment and "open in new window" option)
+            - Importer
+            - Update documentation
+            - WooCommerce
+
+    Changed:
+            - Update default contact forms to make them GDPR-compliant
+            - Move Importer to TRX Addons plugin
+            - Update demo data
+
+
+Version 1.2
+    WordPress Version 4.9.5 ready
+    Compatibility with PHP7.1.x
+    Updated Visual Composer Extensions All In One to its latest version
+    Updated Revolution Slider to its latest version
+    Updated Visual Composer to its latest version
+    Updated Essential Grid to its latest version
+    Updated demo data
+    Fixed shortcode Visual Composer in PHP7.1.x
+    Fixed WooCommerce 3.3.x
+    Fixed Quick Interest Slider
+    Added new CSS styles
+
+Version 1.1
+	Documentation updated
+	Plugins updated
+
+Version 1.0
+    Release
+	
