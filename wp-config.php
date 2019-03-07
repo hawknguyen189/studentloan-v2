@@ -20,15 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('WP_CACHE', true);
-define( 'WPCACHEHOME', 'C:\wamp64\www\studentloan-v2\wp-content\plugins\wp-super-cache/' );
-define( 'DB_NAME', 'test_db' );
+define( 'DB_NAME', 'studentloan_db' );
 
 /** MySQL database username */
 define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'mysql' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -48,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'OaX$-* A}MDFJf)mIgt`?`1=NzDfn@}bX}rTTU*X~hjXt>(lw7RS<Qb(WJ~t=5wf' );
-define( 'SECURE_AUTH_KEY',  'YlyzI|I:avKh$*J#dYj[Ek&u@e H:PC[@%>oWx`W&fyC?ysH;LoyVx]b*04~|l5_' );
-define( 'LOGGED_IN_KEY',    'e:F*zh0Es[o(p6KP!7T3Cg2aZemBO=; a2uwddmI`<EN*,L|}jmyib-Q%!:R]As8' );
-define( 'NONCE_KEY',        'U GMDExBO7.y51Jrs$DwbXHsOOn9Z)J/Th]-pvw.a@/R^{BvWH}xEzyJl1.S$zA3' );
-define( 'AUTH_SALT',        '&E*dF@hXB8o3`3tT+:@X.4kI1D:`.S@E{IlFb9#Msj&(j<S/-Z<=?+X8e<l.ltqt' );
-define( 'SECURE_AUTH_SALT', 'ldH<f/uz5z%S1~Tjy!?]0lL>87Lae9]P4Ja?=QT2^pBYcLi##cH-)*)1u`#qTfP[' );
-define( 'LOGGED_IN_SALT',   'g||*=7r=hCl9o_ 4k46]f2O{%7m-&iS7}.@QJ+W O&iFugRUCVFtnERX>0=^.4:e' );
-define( 'NONCE_SALT',       'gKQf3AD@!qlGYe; <c4Q 6>8;4q<xp-V2bl]Hpcb5q59Dp:fd^COfo^$2?z1vv.n' );
+define( 'AUTH_KEY',         '=3l6Bk&5NmS!+klVa6vUIn U;5&sU7=yxk8fZLJA1bOyIquDQkMP4SnbEy9r-(d.' );
+define( 'SECURE_AUTH_KEY',  'eU!9dY/|~#Mg&Y+wG|`R1;0`q~E6H`5L6BYw9jhDg.qu#7!-T,>1LAbRpiLr9^vc' );
+define( 'LOGGED_IN_KEY',    'Zj$],:CV-16OiwGdv= n<{pT8JRqeI<vO#]9 ;<Q+>87+oZ#gGm25nJ4gX~SkU@h' );
+define( 'NONCE_KEY',        '#DHF+n-o5%]P7Z8wLP|F^@b?u+;Ebgk#tmRj_d$&C[G8N7ZEbzJoDVQ$%qb/u4(}' );
+define( 'AUTH_SALT',        'KO*kPYP5O(jkC,aHcKYPfE<)I).Q^9Vj,93 dZRX{K[dSUj46oiIopS![.Ub7H.N' );
+define( 'SECURE_AUTH_SALT', 're]%G[}R2-ZN,z-wX!WuS9&5;vZ}h0 2,UR7cbdu8wO]6P#h;5p?pCxb&c^Sa|+i' );
+define( 'LOGGED_IN_SALT',   'a|zbW=1hG&]%iTHZ/y!*#o)ro1S~018v3pyRPJMf#(|}UAq0V,QGj$4Yl8+-6Lm?' );
+define( 'NONCE_SALT',       '5tiW[P0B8X~+95efh+=FhK+M 2Vi!2)mz`X~%ph8$~*[4[Jd,yew$hGXE/;Hdr+g' );
 
 /**#@-*/
 
@@ -80,7 +78,6 @@ $table_prefix = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define( 'WP_DEBUG', false );
-//increase memory limit to PHP
 define( 'WP_MEMORY_LIMIT', '256M' );
 
 /* That's all, stop editing! Happy publishing. */
@@ -92,5 +89,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once( ABSPATH . 'wp-settings.php' );
-
-
