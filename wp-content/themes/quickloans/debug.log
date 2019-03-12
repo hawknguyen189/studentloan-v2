@@ -5765,3 +5765,4 @@
 05.03.2019 18:08:43 AJAX handler finished - send results to client: {"action":"import_woocommerce","error":"","start_from_id":0,"result":100}
 05.03.2019 18:08:44 Dispatch action: import_end
 05.03.2019 18:08:44 AJAX handler finished - send results to client: {"action":"import_end","error":"","start_from_id":0,"result":100}
+12.03.2019 04:38:35 Load data from the file http://demofiles.ancorathemes.com/quickloans/default/posts.txt successful
